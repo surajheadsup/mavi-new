@@ -14,3 +14,7 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.rev-contact-now{
+  border : 1px red solid;
+}

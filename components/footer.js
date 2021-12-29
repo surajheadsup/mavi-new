@@ -4,6 +4,7 @@ import parse from 'html-react-parser';
 import CtaFooterBanner from './CtaFooterBanner';
 import FooterSection from './FooterSection';
 
+
 const Footer = () => {
 
     return ( <>
@@ -19,8 +20,10 @@ const Footer = () => {
         <Script type='text/javascript' src='js/jquery.mmenu.js'></Script>
         <Script type='text/javascript' src='js/jquery.superfish.js'></Script>
         <Script type='text/javascript' src='js/plugins.min.js'></Script>
+        
         <Script type='text/javascript' src='plugins/setREVStartSize.js'></Script>
-
+        <Script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></Script>
+        <Script type='text/javascript' src='js/custom.js'></Script>
     </> );
 }
  

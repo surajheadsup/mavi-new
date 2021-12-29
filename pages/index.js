@@ -13,6 +13,7 @@ import Counter from '../components/Counter'
 import Expertise from '../components/Expertise'
 import Appoinment from '../components/Appoinment'
 import Footer from '../components/footer'
+import HeroSlider from '../components/HeroSlider'
 
  const Home = () => {
   return (<>
@@ -26,7 +27,8 @@ import Footer from '../components/footer'
                                 <div className="gdlr-core-pbf-element">
                                     <div className="gdlr-core-revolution-slider-item gdlr-core-item-pdlr gdlr-core-item-pdb " style={{paddingBottom : 0}}>
                                         <p className="rs-p-wp-fix"></p>
-                                        <rs-module-wrap id="rev_slider_2_1_wrapper" data-source="gallery" style={{background:'transparent',padding:0,margin:'0px auto',marginTop:0, marginBottom:0}}>
+                                        <HeroSlider/>
+                                        {/* <rs-module-wrap id="rev_slider_2_1_wrapper" data-source="gallery" style={{background:'transparent',padding:0,margin:'0px auto',marginTop:0, marginBottom:0}}>
                                             <rs-module id="rev_slider_2_1" style={{display : 'none'}} data-version="6.1.5">
                                                 <rs-slides>
                                                     <rs-slide data-key="rs-3" data-title="Slide" data-thumb="#" data-anim="ei:d;eo:d;s:1000;r:0;t:fade;sl:0;">
@@ -61,7 +63,7 @@ import Footer from '../components/footer'
                                                 <rs-progress className="rs-bottom" style={{visibility : 'hidden !important'}}></rs-progress>
                                             </rs-module>
 
-                                        </rs-module-wrap>
+                                        </rs-module-wrap> */}
                                     </div>
                                 </div>
                             </div>

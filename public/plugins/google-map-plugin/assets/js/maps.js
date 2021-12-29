@@ -278,7 +278,7 @@
 
             google.maps.event.addListener(place.marker, 'click', function() {
                  if (map_obj.settings.map_infowindow_customisations === true)
-                    map_obj.amenity_infowindow.setContent('<div class="wpgmp_infowindow"><div class="wpgmp_iw_content">' + place.name + '</div></div>');
+                    map_obj.amenity_infowindow.setContent('<div className="wpgmp_infowindow"><div className="wpgmp_iw_content">' + place.name + '</div></div>');
                 else
                     map_obj.amenity_infowindow.setContent(place.name);
                 map_obj.amenity_infowindow.open(map, this);
@@ -906,7 +906,7 @@
 
             if (this.map_data.listing) {
                
-                var filter_content = '<div class="wpgmp_filter_wrappers">' + this.display_filters() + '</div>';
+                var filter_content = '<div className="wpgmp_filter_wrappers">' + this.display_filters() + '</div>';
                 $(this.container).find(".wpgmp_map_parent").after(filter_content);
 
             }
@@ -918,9 +918,9 @@
             var hide_locations = this.map_data.listing.hide_locations;
 
             var content = '';
-            content += '<div class="wpgmp_before_listing">' + this.map_data.listing.listing_header + '</div>';
+            content += '<div className="wpgmp_before_listing">' + this.map_data.listing.listing_header + '</div>';
 
-            content += '<div class="categories_filter">' + this.create_filters() + '<div data-container="wpgmp-filters-container"></div>';
+            content += '<div className="categories_filter">' + this.create_filters() + '<div data-container="wpgmp-filters-container"></div>';
             content += '</div>';
 
             return content;
@@ -991,7 +991,7 @@
                         'z-index': '1',
                         'background-color': map_obj.settings.infowindow_bg_color
                     });
-                    wpgmp_iwOuter.find('.wpgmp_infowindow').prepend('<div class="infowindow-close"></div>');
+                    wpgmp_iwOuter.find('.wpgmp_infowindow').prepend('<div className="infowindow-close"></div>');
                     wpgmp_iwOuter.on('click', '.infowindow-close', function(event){
                         $.each(map_obj.places, function(key, place) {
                             place.infowindow.close();
@@ -1183,14 +1183,14 @@
                     
                     if (content === "") {
                         if (map_obj.settings.map_infowindow_customisations === true && map_obj.settings.show_infowindow_header === true)
-                            content = '<div class="wpgmp_infowindow"><div class="wpgmp_iw_head"><div class="wpgmp_iw_head_content">' + place.title + '</div></div><div class="wpgmp_iw_content">' + place.content + '</div></div>';
+                            content = '<div className="wpgmp_infowindow"><div className="wpgmp_iw_head"><div className="wpgmp_iw_head_content">' + place.title + '</div></div><div className="wpgmp_iw_content">' + place.content + '</div></div>';
                         else
-                            content = '<div class="wpgmp_infowindow"><div class="wpgmp_iw_content">' + place.content + '</div></div>';
+                            content = '<div className="wpgmp_infowindow"><div className="wpgmp_iw_content">' + place.content + '</div></div>';
                     } else {
                         if (map_obj.settings.map_infowindow_customisations === true && map_obj.settings.show_infowindow_header === true)
-                            content = '<div class="wpgmp_infowindow"><div class="wpgmp_iw_head"><div class="wpgmp_iw_head_content">' + place.title + '</div></div><div class="wpgmp_iw_content">' + content + '</div></div>';
+                            content = '<div className="wpgmp_infowindow"><div className="wpgmp_iw_head"><div className="wpgmp_iw_head_content">' + place.title + '</div></div><div className="wpgmp_iw_content">' + content + '</div></div>';
                         else
-                            content = '<div class="wpgmp_infowindow"><div class="wpgmp_iw_content">' + content + '</div></div>';
+                            content = '<div className="wpgmp_infowindow"><div className="wpgmp_iw_content">' + content + '</div></div>';
             
                     }
                     place.infowindow_data = content;

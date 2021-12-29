@@ -98,7 +98,7 @@
 				$(this).removeAttr('height').removeAttr('width');
 				
 				try{
-					$(this).wrap('<div class="gdlr-core-fluid-video-wrapper"></div>').parent().css('padding-top', (ratio * 100)+"%");
+					$(this).wrap('<div className="gdlr-core-fluid-video-wrapper"></div>').parent().css('padding-top', (ratio * 100)+"%");
 					$(this).attr('src', $(this).attr('src'));
 				}catch(e){}
 			}
@@ -1257,8 +1257,8 @@
 				useCSS: false,
 				animation: 'fade',
 				animationLoop: true,
-				prevText: '<i class="arrow_carrot-left"></i>',
-				nextText: '<i class="arrow_carrot-right"></i>'
+				prevText: '<i className="arrow_carrot-left"></i>',
+				nextText: '<i className="arrow_carrot-right"></i>'
 			};
 
 			if( $(this).attr('data-start-at') && $(this).attr('data-start-at') > 1 ){
@@ -1323,9 +1323,9 @@
 							flex_attr.customDirectionNav = $(this).closest('.' + $(this).attr('data-nav-parent')).find('.flex-prev, .flex-next');
 						}else{
 							$(this).closest('.' + $(this).attr('data-nav-parent')).each(function(){
-								var flex_nav = $('<ul class="flex-direction-nav">' + 
-												'<li class="flex-nav-prev"><a class="flex-prev" href="#"><i class="arrow_carrot-left"></i></a></li>' +
-												'<li class="flex-nav-next"><a class="flex-next" href="#"><i class="arrow_carrot-right"></i></a></li>' +
+								var flex_nav = $('<ul className="flex-direction-nav">' + 
+												'<li className="flex-nav-prev"><a className="flex-prev" href="#"><i className="arrow_carrot-left"></i></a></li>' +
+												'<li className="flex-nav-next"><a className="flex-next" href="#"><i className="arrow_carrot-right"></i></a></li>' +
 											'</ul>');
 
 								var flex_nav_position = $(this).find('.gdlr-core-flexslider-nav');
@@ -1914,7 +1914,7 @@
 				if( parent_item.length ){
 					parent_item.height((img_height * $(this).parent().width()) / img_width);
 				}else{
-					parent_item = $('<div class="gdlr-core-temp-image-wrap" ></div>');
+					parent_item = $('<div className="gdlr-core-temp-image-wrap" ></div>');
 					parent_item.css('height', ((img_height * $(this).closest('span, div').width()) / img_width));
 					$(this).wrap(parent_item);
 				}
@@ -1971,7 +1971,7 @@
 
 					var pre_space = ($(this).height() - $(this).children('.gdlr-core-full-height-content').outerHeight(true)) / 2;
 					if( pre_space > 0 ){
-						$(this).prepend($('<div class="gdlr-core-full-height-pre-spaces" ></div>').height(pre_space));
+						$(this).prepend($('<div className="gdlr-core-full-height-pre-spaces" ></div>').height(pre_space));
 					}
 				}
 			});
@@ -2075,7 +2075,7 @@
 					var offset = parseInt(max_height - $(this).outerHeight());
 					var offset_item = $(this).find('[data-sync-height-offset]');
 					if( offset_item.length && offset > 0 ){
-						$('<div class="gdlr-core-sync-height-offset" ></div>').css('height', offset).insertBefore(offset_item);
+						$('<div className="gdlr-core-sync-height-offset" ></div>').css('height', offset).insertBefore(offset_item);
 					}
 
 					$(this).css('height', max_height);
@@ -2103,7 +2103,7 @@
 
 						// insert the spaces
 						if( padding_top > 0 ){
-							var spaces_item = $('<div class="gdlr-core-sync-height-pre-spaces" ></div>').css('padding-top', padding_top);
+							var spaces_item = $('<div className="gdlr-core-sync-height-pre-spaces" ></div>').css('padding-top', padding_top);
 							var space_position = $(this).children('.gdlr-core-sync-height-space-position');
 							if( space_position.length > 0 ){
 								spaces_item.insertBefore(space_position);
@@ -2146,7 +2146,7 @@
 
 	function gdlr_core_ajax_action(ajax_section, name, value){
 
-		var now_loading = $('<div class="gdlr-core-now-loading" ></div>').hide();
+		var now_loading = $('<div className="gdlr-core-now-loading" ></div>').hide();
 
 		$.ajax({
 			type: 'POST',
@@ -2410,7 +2410,7 @@
 
 			var wpcf7_select = $('.wpcf7-form select');
 			if( wpcf7_select.length ){
-				$('<div class="wpcf7-form-indicator" ><i class="fa fa-angle-down" ></i></div>').insertAfter(wpcf7_select);
+				$('<div className="wpcf7-form-indicator" ><i className="fa fa-angle-down" ></i></div>').insertAfter(wpcf7_select);
 			}
 			
 			$('body').each(function(){

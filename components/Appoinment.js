@@ -24,7 +24,7 @@ const Appoinment = () => {
                         <div className="gdlr-core-contact-form-7-item gdlr-core-item-pdlr gdlr-core-item-pdb " style={{paddingBottom : 0}} >
                             <div role="form" className="wpcf7" id="wpcf7-f5826-p7684-o1" lang="en-US" dir="ltr">
                                 <div className="screen-reader-response"></div>
-                                <form action="https://demo.goodlayers.com/mediz/hospital/#wpcf7-f5826-p7684-o1" method="post" className="wpcf7-form" novalidate="novalidate">
+                                <form action="https://demo.goodlayers.com/mediz/hospital/#wpcf7-f5826-p7684-o1" method="post" className="wpcf7-form" noValidate="novalidate">
                                     <div style={{display: 'none'}}>
                                         <input type="hidden" name="_wpcf7" value="5826" />
                                         <input type="hidden" name="_wpcf7_version" value="5.1.6" />

@@ -2118,3 +2118,73 @@ p.zeno_font_resizer .screen-reader-text {
 .emergency-24-hours-btn{
 	box-shadow: 0px 0px 30px rgba(0, 0, 0,0.1); -moz-box-shadow: 0px 0px 30px rgba(0, 0, 0,0.1); -webkit-box-shadow: 0px 0px 30px rgba(0, 0, 0,0.1); font-size: 16px ;font-weight: 700 ;letter-spacing: 0px ;color: #17449E ;padding: 14px 50px 17px 50px;text-transform: none ;border-radius: 0px;-moz-border-radius: 0px;-webkit-border-radius: 0px;background: #ffffff ;
 }
+.subscribe{
+	margin: 0px 0px 0px 0px;padding: 20px 0px 20px 0px;border-radius: 0px 0px 5px 5px;-moz-border-radius: 0px 0px 5px 5px;-webkit-border-radius: 0px 0px 5px 5px;
+}
+.subscribe-background-wrap{
+	border-radius: 0px 0px 5px 5px;-moz-border-radius: 0px 0px 5px 5px;-webkit-border-radius: 0px 0px 5px 5px;
+}
+.gdlr-core-js-subscribe{
+	background-image: url('../upload/Bg-Title.jpg') ;background-size: cover ;background-position: center ;
+}
+.subscribe-title{
+	font-size: 26px !important;
+	font-weight: 700 !important;
+	letter-spacing: 0px !important;
+	text-transform: none !important;
+	color: #ffffff !important;
+}
+.subscribe-content{
+	font-size: 16px ;font-weight: 400 ;letter-spacing: 0px ;text-transform: none ;color: #9ebeff ;
+}
+.service-header-bg{
+	background-image: url('../upload/page-title.jpg')!important; ;background-size: cover ;background-position: center ;
+}
+.about-header-bg{
+	background-image: url('../upload/about-2-title-bg.jpg')!important; ;background-size: cover ;background-position: center ;
+}
+
+.mediz-page-title-wrap-1{
+    position: relative;
+    overflow: hidden;
+    clear: both;
+}
+.gdle-skin-divider-custom{
+	border-color: #e0e0e0 ;
+	border-width: 3px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+.view-all-services{
+	font-size: 16px !important;
+	font-weight: 500 !important;
+	letter-spacing: 0px !important;
+	color: #ffffff !important;
+	padding: 12px 21px 14px 27px!important;
+	text-transform: none !important;
+	border-radius: 3px!important;
+	-moz-border-radius: 3px!important;
+	-webkit-border-radius: 3px!important;
+	background: #4d93e9 !important;
+}
+.view-all{
+	display: flex;
+	justify-content: center;
+}
+.blue-divider{
+	border-color: #17449e !important;
+	border-width: 4px!important;
+	border-radius: 2px!important;
+	-moz-border-radius: 2px!important;
+	-webkit-border-radius: 2px!important;
+}
+.about-mission-vision-bg{
+	background-image: url('../upload/quality-team.png') ;
+	background-size: cover ;
+	background-position: center ;
+}
+.gdlr-core-counter-item .gdlr-core-counter-item-number{
+	color : #fff;
+}
+.gdlr-core-counter-item-bottom-text{ color : #fff!important;}

@@ -9,7 +9,7 @@ const Header = () => {
         <Head>
             <meta charSet="UTF-8"/>
             <meta name="viewport" content="width=device-width, initial-scale=1"/>
-            <title>Mediz &#8211; Hospital HTML Template</title>
+            <title>Mavie</title>
             <link rel='stylesheet' href='plugins/goodlayers-core/plugins/fontawesome/font-awesome.css' type='text/css' media='all' />
             <link rel='stylesheet' href='plugins/goodlayers-core/plugins/fa5/fa5.css' type='text/css' media='all' />
             <link rel='stylesheet' href='plugins/goodlayers-core/plugins/elegant/elegant-font.css' type='text/css' media='all' />

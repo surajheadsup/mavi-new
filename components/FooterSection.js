@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Link from 'next/link'
 function FooterSection() {
     return (
         <footer>
@@ -21,7 +21,7 @@ function FooterSection() {
                                         <br />
                                         <span className="gdlr-core-space-shortcode" style={{marginTop : -15}}></span>
                                         <br />
-                                        <i className="icon-envelope" style={{fontSize: 19,color: '#17449E', marginRight: 10 }}></i><a href="#" style={{color: '#17449e'}}><span className="__cf_email__">test@gmail.com</span></a></p>
+                                        <i className="icon-envelope" style={{fontSize: 19,color: '#17449E', marginRight: 10 }}></i><Link href=""><a style={{color: '#17449e'}}><span className="__cf_email__">test@gmail.com</span></a></Link></p>
                                 </div>
                             </div>
                         </div>
@@ -30,10 +30,10 @@ function FooterSection() {
                                 <h3 className="mediz-widget-title">Quick Links</h3><span className="clear"></span>
                                 <div className="menu-about-us-container">
                                     <ul id="menu-about-us" className="menu">
-                                        <li className="menu-item"><a href="/about">About us</a></li>
-                                        <li className="menu-item"><a href="/servies">Our Services</a></li>
-                                        <li className="menu-item"><a href="/about">Our Mission &#038; Values</a></li>
-                                        <li className="menu-item"><a href="/contact">Contact</a></li>
+                                        <li className="menu-item"><Link href="/about"><a >About us</a></Link></li>
+                                        <li className="menu-item"><Link href="/services"><a >Our Services</a></Link></li>
+                                        <li className="menu-item"><Link href="/about"><a >Our Mission &#038; Values</a></Link></li>
+                                        <li className="menu-item"><Link href="/contact"><a >Contact</a></Link></li>
                                         {/* <li className="menu-item"><a href="#">Career</a></li> */}
                                         {/* <li className="menu-item"><a href="#">Blog</a></li> */}
                                     </ul>
@@ -66,7 +66,11 @@ function FooterSection() {
                             </div>
                             <div id="text-9" className="widget widget_text mediz-widget">
                                 <div className="textwidget">
-                                    <p><span className="gdlr-core-space-shortcode" style={{marginTop : -23}}></span><a className="gdlr-core-button gdlr-core-button-shortcode  gdlr-core-button-solid gdlr-core-button-no-border emergency-24-hours-btn" href="/contact" target="_blank" rel="noopener noreferrer"><span className="gdlr-core-content" >Emergency : 24 hours</span></a></p>
+                                    <p><span className="gdlr-core-space-shortcode" style={{marginTop : -23}}></span>
+                                        <Link href="/contact"><a className="gdlr-core-button gdlr-core-button-shortcode  gdlr-core-button-solid gdlr-core-button-no-border emergency-24-hours-btn" target="_blank" rel="noopener noreferrer">
+                                            <span className="gdlr-core-content" >Emergency : 24 hours</span>
+                                        </a></Link>
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -77,7 +81,7 @@ function FooterSection() {
                         <div className="mediz-copyright-left mediz-item-pdlr">
                             <div className="gdlr-core-social-network-item gdlr-core-item-pdb  gdlr-core-none-align" style={{paddingBottom:0}}><a href="#url" target="_blank" className="gdlr-core-social-network-icon" title="facebook" style={{fontSize: 17, color: '#17449E'}}><i className="fa fa-facebook" ></i></a><a href="#" target="_blank" className="gdlr-core-social-network-icon" title="linkedin" style={{fontSize: 17, color: '#17449E'}}><i className="fa fa-linkedin" ></i></a><a href="#" target="_blank" className="gdlr-core-social-network-icon" title="skype" style={{fontSize: 17, color: '#17449E'}}><i className="fa fa-skype" ></i></a><a href="#url" target="_blank" className="gdlr-core-social-network-icon" title="twitter" style={{fontSize: 17, color: '#17449E'}}><i className="fa fa-twitter" ></i></a></div>
                         </div>
-                        <div className="mediz-copyright-right mediz-item-pdlr">Copyright 2019 Mediz, All Right Reserved</div>
+                        <div className="mediz-copyright-right mediz-item-pdlr">Copyright {new Date().getFullYear()} Mavie, All Right Reserved</div>
                     </div>
                 </div>
             </footer>

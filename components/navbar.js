@@ -18,7 +18,7 @@ const Navbar = () => {
                     <div className="mediz-mobile-menu-right">
                         
                         <div className="mediz-overlay-menu mediz-mobile-menu" id="mediz-mobile-menu">
-                            <Link href="#"><a className="mediz-overlay-menu-icon mediz-mobile-menu-button mediz-mobile-button-hamburger" href="#"><span></span></a></Link>
+                            <Link href="#"><a className="mediz-overlay-menu-icon mediz-mobile-menu-button mediz-mobile-button-hamburger"><span></span></a></Link>
                             <div className="mediz-overlay-menu-content mediz-navigation-font">
                                 <div className="mediz-overlay-menu-close"></div>
                                 <div className="mediz-overlay-menu-row">
@@ -45,11 +45,11 @@ const Navbar = () => {
                         <div className="mediz-top-bar-container-inner clearfix">
                             <div className="mediz-top-bar-left mediz-item-pdlr"><i className="icon-clock" style={{fontSize: 19 , color: '#17449E' , marginLeft: 25, marginRight: 10 }}></i>Mon - Sun 0900 - 2100
                                 <i className="icon-phone" style={{fontSize: 19 , color: '#17449E' , marginLeft: 25, marginRight: 10 }}></i>+1-2345-3455-33<i className="icon-envelope" style={{fontSize: 19 , color: '#17449E' , marginLeft: 25, marginRight: 10 }}></i>
-                                <Link href="#"><a href="#"><span className="__cf_email__" >test@gmail.com</span></a> </Link>
+                                <Link href="#"><span className="__cf_email__" >test@gmail.com</span></Link>
                                 </div>
                             <div className="mediz-top-bar-right mediz-item-pdlr">
                                 <div className="mediz-top-bar-right-social">
-                                    <Link href="#"><a href="#" target="_blank" className="mediz-top-bar-social-icon" title="facebook"><i className="fa fa-facebook" ></i></a></Link>
+                                    <Link href="#"><a  target="_blank" className="mediz-top-bar-social-icon" title="facebook"><i className="fa fa-facebook" ></i></a></Link>
                                     <Link href="#"><a target="_blank" className="mediz-top-bar-social-icon" title="linkedin"><i className="fa fa-linkedin" ></i></a></Link>
                                     <Link href="#"><a target="_blank" className="mediz-top-bar-social-icon" title="pinterest"><i className="fa fa-pinterest-p" ></i></a></Link>
                                     <Link href="#"><a target="_blank" className="mediz-top-bar-social-icon" title="twitter"><i className="fa fa-twitter" ></i></a></Link>
@@ -64,9 +64,30 @@ const Navbar = () => {
                         <div className="mediz-header-container-inner">
                             <div className="mediz-logo  mediz-item-pdlr">
                                 <div className="mediz-logo-inner">
-                                <Link href="/"><a className=""><img src="upload/logo.png" alt="" style={{ width : 80}} title="logo" /></a></Link>
+                                    <Link href="/"><a className=""><img src="upload/logo.png" alt="" style={{ width : 80}} title="logo" /></a></Link>
                                 </div>
+                                
                             </div>
+                            <div className="mediz-logo-right-text mediz-item-pdlr clearfix">
+                                    <div className="mediz-logo-right-text-wrap"><i className="mediz-logo-right-text-icon icon-check"></i>
+                                        <div className="mediz-logo-right-text-content-wrap">
+                                            <div className="mediz-logo-right-text-title">Trusted By</div>
+                                            <div className="mediz-logo-right-text-caption">1200+ People</div>
+                                        </div>
+                                    </div>
+                                    <div className="mediz-logo-right-text-wrap"><i className="mediz-logo-right-text-icon icon-check"></i>
+                                        <div className="mediz-logo-right-text-content-wrap">
+                                            <div className="mediz-logo-right-text-title">Best Hospital</div>
+                                            <div className="mediz-logo-right-text-caption"></div>
+                                        </div>
+                                    </div>
+                                    <div className="mediz-logo-right-text-wrap"><i className="mediz-logo-right-text-icon icon-check"></i>
+                                        <div className="mediz-logo-right-text-content-wrap">
+                                            <div className="mediz-logo-right-text-title">Number #1</div>
+                                            <div className="mediz-logo-right-text-caption"></div>
+                                        </div>
+                                    </div>
+                                </div>
                         </div>
                     </div>
                 </header>

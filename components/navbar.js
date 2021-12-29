@@ -12,7 +12,7 @@ const Navbar = () => {
                 <div className="mediz-mobile-header-container mediz-container clearfix">
                     <div className="mediz-logo  mediz-item-pdlr">
                         <div className="mediz-logo-inner">
-                            <Link href="/"><a className="" href="/"><img src="upload/logo.png" alt="" style={{ width : 50}} title="logo" /></a></Link>
+                            <Link href="/"><a className=""><img src="upload/logo.png" alt="" style={{ width : 50}} title="logo" /></a></Link>
                         </div>
                     </div>
                     <div className="mediz-mobile-menu-right">

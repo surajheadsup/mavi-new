@@ -5,7 +5,7 @@ import Head from 'next/head';
 
 const Header = () => {
     return (<>
-        <Script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossOrigin="anonymous"></Script>
+        <Script src="plugins/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossOrigin="anonymous"></Script>
         <Head>
             <meta charSet="UTF-8"/>
             <meta name="viewport" content="width=device-width, initial-scale=1"/>

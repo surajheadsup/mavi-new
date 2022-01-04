@@ -12,7 +12,8 @@ const Navbar = () => {
                 <div className="mediz-mobile-header-container mediz-container clearfix">
                     <div className="mediz-logo  mediz-item-pdlr">
                         <div className="mediz-logo-inner">
-                            <Link href="/"><a className=""><img src="upload/logo.png" alt="" style={{ width : 50}} title="logo" /></a></Link>
+                            <Link href="/"><a className=""><img src="upload/logo.png" alt="" style={{ width : 50}} title="logo" /></a></Link><br/>
+                            <label className="w-100" style={{ fontSize : 12, marginLeft : -25}}>WE CARE FOR YOU</label>
                         </div>
                     </div>
                     <div className="mediz-mobile-menu-right">
@@ -43,9 +44,9 @@ const Navbar = () => {
                     <div className="mediz-top-bar-background"></div>
                     <div className="mediz-top-bar-container mediz-container ">
                         <div className="mediz-top-bar-container-inner clearfix">
-                            <div className="mediz-top-bar-left mediz-item-pdlr"><i className="icon-clock" style={{fontSize: 19 , color: '#17449E' , marginLeft: 25, marginRight: 10 }}></i>Mon - Sun 0900 - 2100
-                                <i className="icon-phone" style={{fontSize: 19 , color: '#17449E' , marginLeft: 25, marginRight: 10 }}></i>+1-2345-3455-33<i className="icon-envelope" style={{fontSize: 19 , color: '#17449E' , marginLeft: 25, marginRight: 10 }}></i>
-                                <Link href="#"><span className="__cf_email__" >test@gmail.com</span></Link>
+                            <div className="mediz-top-bar-left mediz-item-pdlr"><i className="icon-clock" style={{fontSize: 19 , color: '#17449E' , marginLeft: 25, marginRight: 10 }}></i>Mon - Sun 09:00 - 21:00
+                                <i className="icon-phone" style={{fontSize: 19 , color: '#17449E' , marginLeft: 25, marginRight: 10 }}></i>0120-4547530, +91 85277 29341<i className="icon-envelope" style={{fontSize: 19 , color: '#17449E' , marginLeft: 25, marginRight: 10 }}></i>
+                                <Link href="#"><span className="__cf_email__" >info@maviehealthcare.com</span></Link>
                                 </div>
                             <div className="mediz-top-bar-right mediz-item-pdlr">
                                 <div className="mediz-top-bar-right-social">
@@ -64,7 +65,8 @@ const Navbar = () => {
                         <div className="mediz-header-container-inner">
                             <div className="mediz-logo  mediz-item-pdlr">
                                 <div className="mediz-logo-inner">
-                                    <Link href="/"><a className=""><img src="upload/logo.png" alt="" style={{ width : 80}} title="logo" /></a></Link>
+                                    <Link href="/"><a className=""><img src="upload/logo.png" alt="" style={{ width : 80}} title="logo" /></a></Link><br/>
+                                    <label className="w-100" style={{ fontSize : 12, marginLeft : -15}}>WE CARE FOR YOU</label>
                                 </div>
                                 
                             </div>

@@ -2097,8 +2097,9 @@ p.zeno_font_resizer .screen-reader-text {
 	border-bottom-width: 4px ;border-color: #d8d8d8 ;border-radius: 2px;-moz-border-radius: 2px;-webkit-border-radius: 2px;width: 44px ;margin-left: 15px ;
 }
 .appoinment-form{
-	background-image: url('../upload/hp1-contact-form-bg.jpg') ;background-size: cover ;background-position: center ;
+	background-image: url('../upload/appoinment.jpg') ;background-size: cover ;background-position: center;
 }
+.appoinment-form:after{background-color: #000;opacity: .6;}
 .appointment-form-title{
 	font-size: 32px !important;
 	font-weight: 700 !important;
@@ -2180,7 +2181,7 @@ p.zeno_font_resizer .screen-reader-text {
 	-webkit-border-radius: 2px!important;
 }
 .about-mission-vision-bg{
-	background-image: url('../upload/quality-team.png') ;
+	background-image: url('../upload/quality-team.jpg') ;
 	background-size: cover ;
 	background-position: center ;
 }
@@ -2201,10 +2202,10 @@ Hero slider style
 .single-hs-item {height: 700px;background-size: cover;background-position: center center;position: relative;}
 .single-hs-item:before {content: '';position: absolute;width: 100%;height: 100%;left: 0;top: 0;background-color: #000;opacity: .6;}
 .item-bg1 {
-background-image: url('../upload/slider-hospital-1-1-2.jpg');
+background-image: url('../upload/banner1.jpg');
 }
 .item-bg2 {
-background-image: url('../upload/slider-hospital-2-1-n.jpg');
+background-image: url('../upload/banner2.jpg');
 }
 
 .hero-text {padding: 0 15px;text-align: left;max-width: 1140px;margin-left: auto;margin-right: auto;position: relative;}
@@ -2249,4 +2250,7 @@ color: #fff;font-size: 30px;margin: -40px 0 0;border-radius: 0;height: 50px;widt
         left: 50px;
         right: 50px;
     }
+}
+.our-expertise li{
+	
 }

@@ -5,7 +5,7 @@ import Head from 'next/head';
 
 const Header = () => {
     return (<>
-        <Script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></Script>
+        <Script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"  strategy="beforeInteractive"></Script>
         <Head>
             <meta charSet="UTF-8"/>
             <meta name="viewport" content="width=device-width, initial-scale=1"/>

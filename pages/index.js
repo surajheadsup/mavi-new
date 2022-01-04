@@ -175,8 +175,8 @@ import HeroSlider from '../components/HeroSlider'
                                                 </div>
                                             </div>
                                             <Expertise/>
-                                            <Expertise/>
-                                            <Expertise/>
+                                            {/* <Expertise/> */}
+                                            {/* <Expertise/> */}
                                         </div>
                                     </div>
                                 </div>

@@ -8,20 +8,22 @@ function FooterSection() {
                         <div className="mediz-footer-column mediz-item-pdlr mediz-column-20">
                             <div id="text-1" className="widget widget_text mediz-widget">
                                 <div className="textwidget">
-                                    <p><img className="alignnone size-full wp-image-6129" src="upload/logo.png" alt="" style={{width : 80}} />
+                                    <p>
+                                        <img className="alignnone size-full wp-image-6129" src="upload/logo.png" alt="" style={{width : 80}} />
+                                        {/* <label className="w-100" style={{ fontSize : 12, display : "flex", marginLeft : -10, marginTop : -10}}>WE CARE FOR YOU</label> */}
                                         <br />
                                         <span className="gdlr-core-space-shortcode" style={{marginTop : -27}}></span>
-                                        <br /> Box 3233
-                                        <br /> 1810 Kings Way
-                                        <br /> King Street, 5th Avenue, New York
+                                        <br /> T-43,
+                                        <br /> Main Road Tekland, 
+                                        <br /> Offer New Delhi-110020
                                         <br />
                                         <span className="gdlr-core-space-shortcode" style={{marginTop : 0}}></span>
                                         <br />
-                                        <i className="icon-phone" style={{fontSize: 19,color: '#17449E', marginRight: 10 }}></i><span style={{color: '#17449e'}}>+1-2345-3455-33</span>
+                                        <i className="icon-phone" style={{fontSize: 19,color: '#17449E', marginRight: 10 }}></i><span style={{color: '#17449e'}}>0120-4547530, +91 85277 29341</span>
                                         <br />
                                         <span className="gdlr-core-space-shortcode" style={{marginTop : -15}}></span>
                                         <br />
-                                        <i className="icon-envelope" style={{fontSize: 19,color: '#17449E', marginRight: 10 }}></i><Link href=""><a style={{color: '#17449e'}}><span className="__cf_email__">test@gmail.com</span></a></Link></p>
+                                        <i className="icon-envelope" style={{fontSize: 19,color: '#17449E', marginRight: 10 }}></i><Link href=""><a style={{color: '#17449e'}}><span className="__cf_email__">info@maviehealthcare.com</span></a></Link></p>
                                 </div>
                             </div>
                         </div>

@@ -20,7 +20,7 @@ function about() {
                                     <div className="gdlr-core-pbf-column-content clearfix gdlr-core-js ">
                                         <div className="gdlr-core-pbf-element">
                                             <div className="gdlr-core-image-item gdlr-core-item-pdb  gdlr-core-center-align gdlr-core-item-pdlr">
-                                                <div className="gdlr-core-image-item-wrap gdlr-core-media-image  gdlr-core-image-item-style-rectangle" style={{borderWidth : 0}}><img src="upload/Operation-600x646.png" width="845" height="910"  alt="" /></div>
+                                                <div className="gdlr-core-image-item-wrap gdlr-core-media-image  gdlr-core-image-item-style-rectangle" style={{borderWidth : 0}}><img src="upload/Operation-600x646.jpg" width="845" height="910"  alt="" /></div>
                                             </div>
                                         </div>
                                     </div>
